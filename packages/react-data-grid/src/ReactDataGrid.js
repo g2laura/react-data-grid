@@ -876,7 +876,7 @@ const ReactDataGrid = createReactClass({
         onCellChange: this.handleRowSelect,
         filterable: false,
         headerRenderer: headerRenderer,
-        width: 60,
+        width: 30,
         locked: true,
         getRowMetaData: (rowData) => rowData,
         cellClass: this.props.rowActionsCell ? 'rdg-row-actions-cell' : ''
